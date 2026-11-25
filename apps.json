@@ -1020,8 +1020,8 @@
   "manual": [
     {
       "name": "ASUS Sonic Studio 3",
-      "en": "Audio effects (ROG Strix B550-E: Utilities)",
-      "ar": "مؤثرات الصوت (ROG Strix B550-E: قسم Utilities)",
+      "en": "Comes inside the Realtek Audio Driver (Driver & Tools > Audio)",
+      "ar": "بيجي جوّا تعريف Realtek Audio Driver (قسم Driver & Tools ← Audio)",
       "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-e-gaming-model/helpdesk_download/"
     },
     {
