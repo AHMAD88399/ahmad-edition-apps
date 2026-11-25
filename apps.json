@@ -1,0 +1,1094 @@
+{
+  "_note": "قائمة البرامج. كل برنامج: id = اسمه في winget، source = winget أو msstore، cat = القسم، packs = الباقات اللي يتفعّل فيها تلقائياً، site = موقعه (للأيقونة).",
+  "online": "https://raw.githubusercontent.com/AHMAD88399/ahmad-edition-apps/main/apps.json",
+  "packs": [
+    {
+      "key": "gamer",
+      "en": "Gamer",
+      "ar": "لاعب",
+      "icon": "🎮"
+    },
+    {
+      "key": "network",
+      "en": "Network student",
+      "ar": "طالب شبكات",
+      "icon": "🌐"
+    },
+    {
+      "key": "basic",
+      "en": "Basic",
+      "ar": "أساسي",
+      "icon": "🏠"
+    },
+    {
+      "key": "dev",
+      "en": "Programmer",
+      "ar": "مبرمج",
+      "icon": "💻"
+    }
+  ],
+  "categories": [
+    {
+      "key": "drivers",
+      "en": "Drivers",
+      "ar": "التعريفات"
+    },
+    {
+      "key": "browsers",
+      "en": "Browsers",
+      "ar": "المتصفحات"
+    },
+    {
+      "key": "gaming",
+      "en": "Gaming",
+      "ar": "الألعاب"
+    },
+    {
+      "key": "network",
+      "en": "Networking",
+      "ar": "الشبكات والتواصل"
+    },
+    {
+      "key": "study",
+      "en": "Study & Office",
+      "ar": "الدراسة والمكتب"
+    },
+    {
+      "key": "dev",
+      "en": "Programming",
+      "ar": "البرمجة"
+    },
+    {
+      "key": "tools",
+      "en": "Tools",
+      "ar": "الأدوات"
+    },
+    {
+      "key": "media",
+      "en": "Media",
+      "ar": "الوسائط"
+    },
+    {
+      "key": "ai",
+      "en": "AI",
+      "ar": "الذكاء الاصطناعي"
+    }
+  ],
+  "apps": [
+    {
+      "id": "action.windowsupdate",
+      "source": "action",
+      "name": "Windows Update drivers",
+      "cat": "drivers",
+      "packs": [
+        "gamer",
+        "network",
+        "basic",
+        "dev"
+      ],
+      "site": "microsoft.com",
+      "en": "Asks Windows Update for the missing official drivers of this PC and installs them",
+      "ar": "يسأل Windows Update عن التعريفات الرسمية الناقصة لهذا الجهاز ويثبّتها"
+    },
+    {
+      "id": "action.restoredrivers",
+      "source": "action",
+      "name": "Restore my drivers backup",
+      "cat": "drivers",
+      "packs": [],
+      "site": "microsoft.com",
+      "en": "Reinstalls your saved drivers from the DriversBackup folder (Windows keeps the newest)",
+      "ar": "يرجّع تعريفاتك المحفوظة من مجلد DriversBackup (الويندوز بياخد الأحدث)"
+    },
+    {
+      "id": "XP8CLZL93F5Z4P",
+      "source": "msstore",
+      "name": "NVIDIA App",
+      "cat": "drivers",
+      "packs": [],
+      "detect": "nvidia",
+      "site": "nvidia.com",
+      "en": "Installs and updates NVIDIA graphics drivers, game settings and ShadowPlay recording",
+      "ar": "يثبّت ويحدّث تعريف كرت NVIDIA، وإعدادات الألعاب وتسجيل ShadowPlay"
+    },
+    {
+      "id": "Intel.IntelDriverAndSupportAssistant",
+      "source": "winget",
+      "name": "Intel Driver & Support Assistant",
+      "cat": "drivers",
+      "packs": [],
+      "detect": "intel",
+      "site": "intel.com",
+      "en": "Checks Intel Wi-Fi, Bluetooth and graphics drivers and updates them",
+      "ar": "يفحص تعريفات Intel للواي فاي والبلوتوث والشاشة ويحدّثها"
+    },
+    {
+      "id": "Asus.ArmouryCrate",
+      "source": "winget",
+      "name": "Armoury Crate",
+      "cat": "drivers",
+      "packs": [],
+      "site": "asus.com",
+      "en": "ASUS RGB, fans and updates. Installs several background services, so it stays off by default",
+      "ar": "إضاءة ومراوح وتحديثات ASUS. بيركّب كذا خدمة بالخلفية، فبيضل مطفي افتراضياً"
+    },
+    {
+      "id": "Google.Chrome",
+      "source": "winget",
+      "name": "Google Chrome",
+      "cat": "browsers",
+      "packs": [
+        "gamer",
+        "network",
+        "basic",
+        "dev"
+      ],
+      "site": "google.com/chrome",
+      "en": "Fast web browser by Google, syncs bookmarks and passwords with your account",
+      "ar": "متصفح Google السريع، بيزامن المفضلة وكلمات السر مع حسابك"
+    },
+    {
+      "id": "Mozilla.Firefox",
+      "source": "winget",
+      "name": "Mozilla Firefox",
+      "cat": "browsers",
+      "packs": [
+        "basic",
+        "dev"
+      ],
+      "site": "mozilla.org",
+      "en": "Private, open-source browser with strong tracking protection and add-ons",
+      "ar": "متصفح مفتوح المصدر بيحمي خصوصيتك ويمنع التتبّع، وفيه إضافات"
+    },
+    {
+      "id": "Valve.Steam",
+      "source": "winget",
+      "name": "Steam",
+      "cat": "gaming",
+      "packs": [
+        "gamer"
+      ],
+      "site": "store.steampowered.com",
+      "en": "The biggest PC game store: buy, download and update your games, with cloud saves",
+      "ar": "أكبر متجر ألعاب للكمبيوتر: شراء وتحميل وتحديث، مع حفظ سحابي"
+    },
+    {
+      "id": "EpicGames.EpicGamesLauncher",
+      "source": "winget",
+      "name": "Epic Games Launcher",
+      "cat": "gaming",
+      "packs": [
+        "gamer"
+      ],
+      "site": "epicgames.com",
+      "en": "Epic Games store and launcher, gives a free game every week (Fortnite, Unreal)",
+      "ar": "متجر Epic، بيعطي لعبة مجانية كل أسبوع (Fortnite و Unreal)"
+    },
+    {
+      "id": "Blizzard.BattleNet",
+      "source": "winget",
+      "name": "Battle.net",
+      "cat": "gaming",
+      "packs": [],
+      "site": "battle.net",
+      "en": "Launcher for Blizzard games: Overwatch, Diablo, World of Warcraft, Call of Duty",
+      "ar": "مشغّل ألعاب Blizzard: Overwatch و Diablo و WoW و Call of Duty"
+    },
+    {
+      "id": "Discord.Discord",
+      "source": "winget",
+      "name": "Discord",
+      "cat": "gaming",
+      "packs": [
+        "gamer",
+        "basic"
+      ],
+      "site": "discord.com",
+      "en": "Voice, video and text chat for friends and gaming groups, with screen sharing",
+      "ar": "دردشة صوت وفيديو وكتابة للأصحاب وقروبات الألعاب، مع مشاركة الشاشة"
+    },
+    {
+      "id": "Guru3D.Afterburner",
+      "source": "winget",
+      "name": "MSI Afterburner",
+      "cat": "gaming",
+      "packs": [
+        "gamer"
+      ],
+      "site": "msi.com",
+      "en": "Graphics card overclock, fan control and in-game FPS / temperature overlay",
+      "ar": "أوفركلوك كرت الشاشة، والتحكّم بمراوحه، وعرض الـ FPS والحرارة جوّا اللعبة"
+    },
+    {
+      "id": "Guru3D.RTSS",
+      "source": "winget",
+      "name": "RivaTuner Statistics Server",
+      "cat": "gaming",
+      "packs": [
+        "gamer"
+      ],
+      "site": "guru3d.com",
+      "en": "Shows the overlay for Afterburner and can cap FPS for smoother games",
+      "ar": "بيعرض أرقام Afterburner جوّا اللعبة، وبيحدّد الـ FPS عشان اللعب يكون أنعم"
+    },
+    {
+      "id": "BlueStack.BlueStacks",
+      "source": "winget",
+      "name": "BlueStacks",
+      "cat": "gaming",
+      "packs": [],
+      "site": "bluestacks.com",
+      "en": "Android emulator: run phone apps and mobile games on your PC",
+      "ar": "محاكي أندرويد: بتشغّل تطبيقات وألعاب الموبايل على الكمبيوتر"
+    },
+    {
+      "id": "OBSProject.OBSStudio",
+      "source": "winget",
+      "name": "OBS Studio",
+      "cat": "gaming",
+      "packs": [
+        "gamer"
+      ],
+      "site": "obsproject.com",
+      "en": "Free screen recording and live streaming to YouTube or Twitch",
+      "ar": "تسجيل الشاشة والبث المباشر على YouTube أو Twitch، مجاني"
+    },
+    {
+      "id": "WiresharkFoundation.Wireshark",
+      "source": "winget",
+      "name": "Wireshark",
+      "cat": "network",
+      "packs": [
+        "network"
+      ],
+      "site": "wireshark.org",
+      "en": "Captures network packets so you can see every protocol (CCNA labs)",
+      "ar": "بيلتقط حزم الشبكة وبيورجيك كل بروتوكول بالتفصيل (للابات CCNA)"
+    },
+    {
+      "id": "Mobatek.MobaXterm",
+      "source": "winget",
+      "name": "MobaXterm",
+      "cat": "network",
+      "packs": [
+        "network"
+      ],
+      "site": "mobatek.net",
+      "en": "SSH, Telnet, serial console cable and SFTP in tabs in one window (Cisco labs)",
+      "ar": "SSH و Telnet وكيبل الـ Console و SFTP بتبويبات بنافذة وحدة (للابات Cisco)"
+    },
+    {
+      "id": "PuTTY.PuTTY",
+      "source": "winget",
+      "name": "PuTTY",
+      "cat": "network",
+      "packs": [],
+      "site": "putty.org",
+      "en": "Small classic client for SSH, Telnet and serial console connections",
+      "ar": "برنامج صغير وكلاسيكي للاتصال بـ SSH و Telnet وكيبل الـ Console"
+    },
+    {
+      "id": "WinSCP.WinSCP",
+      "source": "winget",
+      "name": "WinSCP",
+      "cat": "network",
+      "packs": [
+        "network"
+      ],
+      "site": "winscp.net",
+      "en": "Copy files to servers and routers over SFTP, SCP or FTP with drag and drop",
+      "ar": "نقل ملفات للسيرفرات والراوترات بـ SFTP أو SCP أو FTP بالسحب والإفلات"
+    },
+    {
+      "id": "TeamViewer.TeamViewer",
+      "source": "winget",
+      "name": "TeamViewer",
+      "cat": "network",
+      "packs": [],
+      "site": "teamviewer.com",
+      "en": "Control another PC over the internet to help someone or reach your own PC",
+      "ar": "تتحكّم بجهاز ثاني عن بُعد، عشان تساعد حدا أو توصل لجهازك"
+    },
+    {
+      "id": "Telegram.TelegramDesktop",
+      "source": "winget",
+      "name": "Telegram",
+      "cat": "network",
+      "packs": [
+        "basic"
+      ],
+      "site": "telegram.org",
+      "en": "Telegram on the PC: chats, channels and large file sharing",
+      "ar": "تلغرام على الكمبيوتر: محادثات وقنوات وإرسال ملفات كبيرة"
+    },
+    {
+      "id": "LocalSend.LocalSend",
+      "source": "winget",
+      "name": "LocalSend",
+      "cat": "network",
+      "packs": [
+        "basic"
+      ],
+      "site": "localsend.org",
+      "en": "Send files between your phone and PC over Wi-Fi, no cable or internet needed",
+      "ar": "إرسال ملفات بين الموبايل والكمبيوتر عالواي فاي، بدون كيبل أو نت"
+    },
+    {
+      "id": "qBittorrent.qBittorrent",
+      "source": "winget",
+      "name": "qBittorrent",
+      "cat": "network",
+      "packs": [],
+      "site": "qbittorrent.org",
+      "en": "Clean, free torrent downloader with no ads and a built-in search",
+      "ar": "برنامج تورنت نظيف ومجاني، بدون إعلانات وفيه بحث داخلي"
+    },
+    {
+      "id": "AppWork.JDownloader",
+      "source": "winget",
+      "name": "JDownloader 2",
+      "cat": "network",
+      "packs": [],
+      "site": "jdownloader.org",
+      "en": "Downloads from file hosts (Mega, Mediafire) and video sites, with auto-extract",
+      "ar": "تحميل من مواقع الرفع (Mega و Mediafire) ومواقع الفيديو، وبيفك الضغط لحاله"
+    },
+    {
+      "id": "Tonec.InternetDownloadManager",
+      "source": "winget",
+      "name": "Internet Download Manager",
+      "cat": "network",
+      "packs": [],
+      "site": "internetdownloadmanager.com",
+      "en": "Speeds up downloads by splitting files and catches videos from the browser (paid)",
+      "ar": "بيسرّع التحميل بتقسيم الملف، وبيلقط الفيديوهات من المتصفح (مدفوع)"
+    },
+    {
+      "id": "SoftDeluxe.FreeDownloadManager",
+      "source": "winget",
+      "name": "Free Download Manager",
+      "cat": "network",
+      "packs": [],
+      "site": "freedownloadmanager.org",
+      "en": "Free download manager like IDM: speeds up, pauses and resumes downloads",
+      "ar": "مدير تحميل مجاني زي IDM: بيسرّع وبيوقّف وبيكمّل التحميل"
+    },
+    {
+      "id": "TheDocumentFoundation.LibreOffice",
+      "source": "winget",
+      "name": "LibreOffice",
+      "cat": "study",
+      "packs": [],
+      "site": "libreoffice.org",
+      "en": "Free office suite (Writer, Calc, Impress) if you do not have Microsoft Office",
+      "ar": "حزمة مكتب مجانية (Writer و Calc و Impress) إذا ما عندك Office"
+    },
+    {
+      "id": "Obsidian.Obsidian",
+      "source": "winget",
+      "name": "Obsidian",
+      "cat": "study",
+      "packs": [
+        "network",
+        "dev"
+      ],
+      "site": "obsidian.md",
+      "en": "Notes as Markdown files on your PC, linked together like a personal wiki",
+      "ar": "ملاحظات بملفات Markdown على جهازك، مربوطة ببعض زي ويكيبيديا خاصة فيك"
+    },
+    {
+      "id": "calibre.calibre",
+      "source": "winget",
+      "name": "calibre",
+      "cat": "study",
+      "packs": [],
+      "site": "calibre-ebook.com",
+      "en": "Organises your e-book library, converts formats and sends books to readers",
+      "ar": "بيرتّب مكتبة كتبك الإلكترونية، وبيحوّل الصيغ وبيبعتها لأجهزة القراءة"
+    },
+    {
+      "id": "Notepad++.Notepad++",
+      "source": "winget",
+      "name": "Notepad++",
+      "cat": "study",
+      "packs": [
+        "network",
+        "dev"
+      ],
+      "site": "notepad-plus-plus.org",
+      "en": "Light text editor for notes, code and config files, with many tabs",
+      "ar": "محرر نصوص خفيف للملاحظات والأكواد وملفات الإعدادات، بتبويبات كثيرة"
+    },
+    {
+      "id": "Bitwarden.Bitwarden",
+      "source": "winget",
+      "name": "Bitwarden",
+      "cat": "study",
+      "packs": [
+        "basic"
+      ],
+      "site": "bitwarden.com",
+      "en": "Free password manager: saves and fills strong passwords on all your devices",
+      "ar": "مدير كلمات سر مجاني: بيحفظ وبيعبّي كلمات سر قوية على كل أجهزتك"
+    },
+    {
+      "id": "TechSmith.Snagit.2024",
+      "source": "winget",
+      "name": "Snagit 2024",
+      "cat": "study",
+      "packs": [],
+      "site": "techsmith.com",
+      "en": "Screenshots and short videos with arrows, text and blur for guides (paid)",
+      "ar": "لقطات شاشة وفيديوهات قصيرة مع أسهم وكتابة وتغبيش، للشروحات (مدفوع)"
+    },
+    {
+      "id": "Microsoft.VisualStudioCode",
+      "source": "winget",
+      "name": "VS Code",
+      "cat": "dev",
+      "packs": [
+        "dev",
+        "network"
+      ],
+      "site": "code.visualstudio.com",
+      "en": "Free code editor by Microsoft for any language, with extensions and Git",
+      "ar": "محرر أكواد مجاني من مايكروسوفت لكل اللغات، فيه إضافات و Git"
+    },
+    {
+      "id": "Python.Python.3.14",
+      "source": "winget",
+      "name": "Python 3.14",
+      "cat": "dev",
+      "packs": [
+        "dev",
+        "network"
+      ],
+      "site": "python.org",
+      "en": "Python 3.14 language: scripts, automation, data and AI learning",
+      "ar": "لغة Python 3.14: سكربتات وأتمتة وبيانات وتعلّم الذكاء الاصطناعي"
+    },
+    {
+      "id": "Git.Git",
+      "source": "winget",
+      "name": "Git",
+      "cat": "dev",
+      "packs": [
+        "dev"
+      ],
+      "site": "git-scm.com",
+      "en": "Version control: saves the history of your code and works with GitHub",
+      "ar": "نظام نسخ للكود: بيحفظ تاريخ التعديلات وبيشتغل مع GitHub"
+    },
+    {
+      "id": "OpenJS.NodeJS.LTS",
+      "source": "winget",
+      "name": "Node.js LTS",
+      "cat": "dev",
+      "packs": [],
+      "site": "nodejs.org",
+      "en": "JavaScript runtime (LTS) to build websites and run npm tools",
+      "ar": "تشغيل JavaScript (نسخة LTS) لبناء المواقع وأدوات npm"
+    },
+    {
+      "id": "Microsoft.PowerShell",
+      "source": "winget",
+      "name": "PowerShell 7",
+      "cat": "dev",
+      "packs": [
+        "dev",
+        "network"
+      ],
+      "site": "github.com/PowerShell",
+      "en": "PowerShell 7: the newer, faster command shell next to Windows PowerShell",
+      "ar": "PowerShell 7: نسخة أحدث وأسرع من سطر أوامر الويندوز"
+    },
+    {
+      "id": "Ollama.Ollama",
+      "source": "winget",
+      "name": "Ollama",
+      "cat": "ai",
+      "packs": [],
+      "site": "ollama.com",
+      "en": "Run AI models (Llama, Qwen, Gemma) offline on your own graphics card",
+      "ar": "تشغيل نماذج ذكاء اصطناعي (Llama و Qwen و Gemma) على كرتك بدون نت"
+    },
+    {
+      "id": "Anthropic.Claude",
+      "source": "winget",
+      "name": "Claude",
+      "cat": "ai",
+      "packs": [
+        "network",
+        "basic",
+        "dev"
+      ],
+      "site": "claude.ai",
+      "en": "Claude desktop app by Anthropic: chat, files and projects",
+      "ar": "تطبيق Claude من Anthropic: محادثة وملفات ومشاريع"
+    },
+    {
+      "id": "OpenAI.ChatGPT",
+      "source": "winget",
+      "name": "ChatGPT",
+      "cat": "ai",
+      "packs": [
+        "network",
+        "basic",
+        "dev"
+      ],
+      "site": "chatgpt.com",
+      "en": "ChatGPT desktop app by OpenAI with a quick shortcut (Alt+Space)",
+      "ar": "تطبيق ChatGPT من OpenAI مع اختصار سريع (Alt+Space)"
+    },
+    {
+      "id": "Anthropic.ClaudeCode",
+      "source": "winget",
+      "name": "Claude Code",
+      "cat": "ai",
+      "packs": [
+        "dev"
+      ],
+      "site": "claude.com",
+      "en": "Claude Code: AI agent that reads and writes code in your terminal",
+      "ar": "Claude Code: مساعد ذكاء اصطناعي بيقرأ ويكتب الكود من الـ Terminal"
+    },
+    {
+      "id": "7zip.7zip",
+      "source": "winget",
+      "name": "7-Zip",
+      "cat": "tools",
+      "packs": [
+        "gamer",
+        "network",
+        "basic",
+        "dev"
+      ],
+      "site": "7-zip.org",
+      "en": "Free archiver: opens ZIP, RAR, 7z and ISO files and makes small archives",
+      "ar": "برنامج ضغط مجاني: بيفتح ZIP و RAR و 7z و ISO وبيعمل ملفات مضغوطة صغيرة"
+    },
+    {
+      "id": "RARLab.WinRAR",
+      "source": "winget",
+      "name": "WinRAR",
+      "cat": "tools",
+      "packs": [],
+      "site": "rarlab.com",
+      "en": "Classic archiver for RAR and ZIP, with repair and passwords (needs serial)",
+      "ar": "برنامج الضغط الكلاسيكي لـ RAR و ZIP، فيه إصلاح وكلمات سر (بدّه سيريل)"
+    },
+    {
+      "id": "Microsoft.PowerToys",
+      "source": "winget",
+      "name": "PowerToys",
+      "cat": "tools",
+      "packs": [
+        "basic",
+        "dev"
+      ],
+      "site": "learn.microsoft.com/windows/powertoys",
+      "en": "Microsoft tools: window layouts, colour picker, bulk rename, quick launcher",
+      "ar": "أدوات مايكروسوفت: ترتيب النوافذ، لاقط ألوان، إعادة تسمية جماعية، مشغّل سريع"
+    },
+    {
+      "id": "voidtools.Everything",
+      "source": "winget",
+      "name": "Everything",
+      "cat": "tools",
+      "packs": [
+        "basic",
+        "dev"
+      ],
+      "site": "voidtools.com",
+      "en": "Finds any file on all drives instantly while you type its name",
+      "ar": "بيلاقي أي ملف على كل الأقراص فوراً وإنت بتكتب اسمه"
+    },
+    {
+      "id": "AntibodySoftware.WizTree",
+      "source": "winget",
+      "name": "WizTree",
+      "cat": "tools",
+      "packs": [
+        "basic"
+      ],
+      "site": "diskanalyzer.com",
+      "en": "Shows in seconds which folders and files fill your disk",
+      "ar": "بيورجيك بثواني شو المجلدات والملفات اللي مالية الهارد"
+    },
+    {
+      "id": "ShareX.ShareX",
+      "source": "winget",
+      "name": "ShareX",
+      "cat": "tools",
+      "packs": [
+        "basic"
+      ],
+      "site": "getsharex.com",
+      "en": "Free screenshots, GIFs and screen recording with editing and auto-upload",
+      "ar": "لقطات شاشة و GIF وتسجيل شاشة مجاني، مع تعديل ورفع تلقائي"
+    },
+    {
+      "id": "Ventoy.Ventoy",
+      "source": "winget",
+      "name": "Ventoy",
+      "cat": "tools",
+      "packs": [],
+      "site": "ventoy.net",
+      "en": "Make one USB that boots many ISO files: just copy the ISOs onto it",
+      "ar": "فلاشة وحدة بتقلع منها كذا ISO: بس انسخ ملفات الـ ISO عليها"
+    },
+    {
+      "id": "Klocman.BulkCrapUninstaller",
+      "source": "winget",
+      "name": "BCUninstaller",
+      "cat": "tools",
+      "packs": [],
+      "site": "bcuninstaller.com",
+      "en": "Uninstalls many apps at once and cleans their leftovers (free, open source)",
+      "ar": "بيشيل كذا برنامج مرة وحدة وبينظف بقاياهم (مجاني ومفتوح المصدر)"
+    },
+    {
+      "id": "RamenSoftware.Windhawk",
+      "source": "winget",
+      "name": "Windhawk",
+      "cat": "tools",
+      "packs": [],
+      "site": "windhawk.net",
+      "en": "Small mods to customize Windows: taskbar, Start menu, clock and more",
+      "ar": "تعديلات صغيرة لتخصيص الويندوز: شريط المهام وقائمة ابدأ والساعة وغيرها"
+    },
+    {
+      "id": "winaero.tweaker",
+      "source": "winget",
+      "name": "Winaero Tweaker",
+      "cat": "tools",
+      "packs": [],
+      "site": "winaero.com",
+      "en": "Hidden Windows settings in one place (most are already done in this edition)",
+      "ar": "إعدادات الويندوز المخفية بمكان واحد (معظمها معمول أصلاً بهاي النسخة)"
+    },
+    {
+      "id": "NirSoft.BlueScreenView",
+      "source": "winget",
+      "name": "BlueScreenView",
+      "cat": "tools",
+      "packs": [],
+      "site": "nirsoft.net",
+      "en": "Reads blue-screen crash files and shows which driver caused the crash",
+      "ar": "بيقرأ ملفات الشاشة الزرقاء وبيورجيك أي تعريف سبّب المشكلة"
+    },
+    {
+      "id": "REALiX.HWiNFO",
+      "source": "winget",
+      "name": "HWiNFO",
+      "cat": "tools",
+      "packs": [
+        "gamer"
+      ],
+      "site": "hwinfo.com",
+      "en": "Every hardware sensor: temperatures, voltages, clocks, with logging",
+      "ar": "كل حساسات القطع: الحرارة والفولت والسرعات، مع تسجيل للقراءات"
+    },
+    {
+      "id": "CPUID.CPU-Z",
+      "source": "winget",
+      "name": "CPU-Z",
+      "cat": "tools",
+      "packs": [],
+      "site": "cpuid.com",
+      "en": "Exact CPU, RAM and motherboard model, speeds and timings",
+      "ar": "موديل المعالج والرام واللوحة بالضبط، مع السرعات والتايمنج"
+    },
+    {
+      "id": "CPUID.HWMonitor",
+      "source": "winget",
+      "name": "HWMonitor",
+      "cat": "tools",
+      "packs": [],
+      "site": "cpuid.com",
+      "en": "Simple window with temperatures, fan speeds and voltages",
+      "ar": "نافذة بسيطة فيها الحرارة وسرعة المراوح والفولت"
+    },
+    {
+      "id": "TechPowerUp.GPU-Z",
+      "source": "winget",
+      "name": "GPU-Z",
+      "cat": "tools",
+      "packs": [],
+      "site": "techpowerup.com",
+      "en": "Graphics card details: model, memory, clocks, sensors and BIOS",
+      "ar": "تفاصيل كرت الشاشة: الموديل والذاكرة والسرعات والحساسات والـ BIOS"
+    },
+    {
+      "id": "CrystalDewWorld.CrystalDiskInfo",
+      "source": "winget",
+      "name": "CrystalDiskInfo",
+      "cat": "tools",
+      "packs": [],
+      "site": "crystalmark.info",
+      "en": "Disk and SSD health, temperature and warnings before a drive fails",
+      "ar": "صحة الهارد والـ SSD وحرارته، وبينبّهك قبل ما يخرب"
+    },
+    {
+      "id": "CrystalDewWorld.CrystalDiskMark",
+      "source": "winget",
+      "name": "CrystalDiskMark",
+      "cat": "tools",
+      "packs": [],
+      "site": "crystalmark.info",
+      "en": "Tests disk and SSD read / write speed",
+      "ar": "بيقيس سرعة القراءة والكتابة للهارد والـ SSD"
+    },
+    {
+      "id": "XPDDT99J9GKB5C",
+      "source": "msstore",
+      "name": "Samsung Magician",
+      "cat": "tools",
+      "packs": [],
+      "site": "semiconductor.samsung.com",
+      "en": "Samsung Magician: firmware updates, health and speed for Samsung SSDs",
+      "ar": "Samsung Magician: تحديث وفحص وسرعة لهاردات Samsung SSD"
+    },
+    {
+      "id": "Corsair.iCUE.5",
+      "source": "winget",
+      "name": "Corsair iCUE",
+      "cat": "tools",
+      "packs": [],
+      "site": "corsair.com",
+      "en": "Corsair RGB lights, fans, keyboards and mice settings",
+      "ar": "إعدادات إضاءة ومراوح وكيبوردات وماوسات Corsair"
+    },
+    {
+      "id": "RazerInc.RazerInstaller.Synapse4",
+      "source": "winget",
+      "name": "Razer Synapse 4",
+      "cat": "tools",
+      "packs": [],
+      "site": "razer.com",
+      "en": "Razer mouse and keyboard settings: DPI, macros and RGB",
+      "ar": "إعدادات ماوس وكيبورد Razer: الـ DPI والماكرو والإضاءة"
+    },
+    {
+      "id": "CodecGuide.K-LiteCodecPack.Full",
+      "source": "winget",
+      "name": "K-Lite Codec Pack",
+      "cat": "media",
+      "packs": [
+        "gamer",
+        "basic"
+      ],
+      "site": "codecguide.com",
+      "en": "Codecs so every video and audio format plays, with MPC-HC player",
+      "ar": "كوديكات عشان يشتغل أي فيديو أو صوت، ومعها مشغّل MPC-HC"
+    },
+    {
+      "id": "VideoLAN.VLC",
+      "source": "winget",
+      "name": "VLC",
+      "cat": "media",
+      "packs": [],
+      "site": "videolan.org",
+      "en": "Plays almost any video, audio or stream without extra codecs",
+      "ar": "بيشغّل تقريباً أي فيديو أو صوت أو بث، بدون كوديكات زيادة"
+    },
+    {
+      "id": "Maxon.CinebenchR23",
+      "source": "winget",
+      "name": "Cinebench R23",
+      "cat": "tools",
+      "packs": [],
+      "site": "maxon.net",
+      "en": "CPU benchmark: scores single and multi-core speed, good for testing stability",
+      "ar": "اختبار أداء المعالج: نواة وحدة وكل الأنوية، ومنيح لفحص الثبات"
+    },
+    {
+      "id": "FinalWire.AIDA64.Extreme",
+      "source": "winget",
+      "name": "AIDA64 Extreme",
+      "cat": "tools",
+      "packs": [],
+      "site": "aida64.com",
+      "en": "Full hardware report, sensors and stress test (paid, 30-day trial)",
+      "ar": "تقرير كامل عن القطع وحساسات واختبار ضغط (مدفوع، تجربة 30 يوم)"
+    },
+    {
+      "id": "Oracle.VirtualBox",
+      "source": "winget",
+      "name": "VirtualBox",
+      "cat": "network",
+      "packs": [
+        "network"
+      ],
+      "site": "virtualbox.org",
+      "en": "Free virtual machines: run Linux or another Windows inside a window",
+      "ar": "أجهزة وهمية مجانية: شغّل لينكس أو ويندوز ثاني جوّا نافذة"
+    },
+    {
+      "id": "ApacheFriends.Xampp.8.2",
+      "source": "winget",
+      "name": "XAMPP",
+      "cat": "dev",
+      "packs": [
+        "dev"
+      ],
+      "site": "apachefriends.org",
+      "en": "Local web server: Apache, MySQL and PHP in one package for web projects",
+      "ar": "سيرفر ويب على جهازك: Apache و MySQL و PHP بحزمة وحدة للمواقع"
+    },
+    {
+      "id": "Microsoft.VCRedist.2015+.x64",
+      "source": "winget",
+      "name": "Visual C++ Runtime (x64)",
+      "cat": "tools",
+      "packs": [
+        "gamer",
+        "basic"
+      ],
+      "site": "microsoft.com",
+      "en": "Visual C++ runtime that many games and apps need to start (64-bit)",
+      "ar": "ملفات Visual C++ اللي كثير ألعاب وبرامج بتحتاجها عشان تشتغل (64-bit)"
+    },
+    {
+      "id": "Microsoft.VCRedist.2015+.x86",
+      "source": "winget",
+      "name": "Visual C++ Runtime (x86)",
+      "cat": "tools",
+      "packs": [
+        "gamer",
+        "basic"
+      ],
+      "site": "microsoft.com",
+      "en": "Same runtime for older 32-bit games and apps",
+      "ar": "نفس الملفات للألعاب والبرامج القديمة 32-bit"
+    },
+    {
+      "id": "Rufus.Rufus",
+      "source": "winget",
+      "name": "Rufus",
+      "cat": "tools",
+      "packs": [],
+      "site": "rufus.ie",
+      "en": "Writes one Windows or Linux ISO to a USB to install a system",
+      "ar": "بيحرق ISO ويندوز أو لينكس على فلاشة عشان تنزّل نظام"
+    },
+    {
+      "id": "Balena.Etcher",
+      "source": "winget",
+      "name": "balenaEtcher",
+      "cat": "tools",
+      "packs": [],
+      "site": "etcher.balena.io",
+      "en": "Writes ISO / IMG files to USB or SD cards (Raspberry Pi, Linux) safely",
+      "ar": "بيحرق ملفات ISO و IMG على فلاشة أو كرت SD (رازبيري باي ولينكس) بأمان"
+    },
+    {
+      "id": "ar51an.iPerf3",
+      "source": "winget",
+      "name": "iPerf3",
+      "cat": "network",
+      "packs": [
+        "network"
+      ],
+      "site": "iperf.fr",
+      "en": "Measures real network speed between two PCs (LAN / Wi-Fi tests)",
+      "ar": "بيقيس سرعة الشبكة الحقيقية بين جهازين (فحص LAN و Wi-Fi)"
+    },
+    {
+      "id": "angryziber.AngryIPScanner",
+      "source": "winget",
+      "name": "Angry IP Scanner",
+      "cat": "network",
+      "packs": [
+        "network"
+      ],
+      "site": "angryip.org",
+      "en": "Scans your network and lists every device with its IP and name",
+      "ar": "بيفحص الشبكة وبيعرض كل جهاز عليها مع الـ IP واسمه"
+    },
+    {
+      "id": "Microsoft.Sysinternals.BGInfo",
+      "source": "winget",
+      "name": "BGInfo",
+      "cat": "network",
+      "packs": [
+        "network"
+      ],
+      "site": "learn.microsoft.com",
+      "en": "Writes the IP, PC name and system info on the desktop wallpaper",
+      "ar": "بيكتب الـ IP واسم الجهاز ومعلوماته على خلفية سطح المكتب"
+    },
+    {
+      "id": "Microsoft.WindowsAdminCenter",
+      "source": "winget",
+      "name": "Windows Admin Center",
+      "cat": "network",
+      "packs": [
+        "network"
+      ],
+      "site": "microsoft.com",
+      "en": "Manage Windows servers and PCs from a web browser (labs, Server 2019+)",
+      "ar": "إدارة سيرفرات وأجهزة ويندوز من المتصفح (لابات، Server 2019 وأحدث)"
+    },
+    {
+      "id": "Wagnardsoft.DisplayDriverUninstaller",
+      "source": "winget",
+      "name": "DDU",
+      "cat": "tools",
+      "packs": [],
+      "site": "wagnardsoft.com",
+      "en": "Removes a graphics driver completely before a clean reinstall",
+      "ar": "بيشيل تعريف كرت الشاشة بالكامل قبل ما تنزّله من جديد نظيف"
+    },
+    {
+      "id": "Grammarly.Grammarly.Office",
+      "source": "winget",
+      "name": "Grammarly for Office",
+      "cat": "study",
+      "packs": [],
+      "site": "grammarly.com",
+      "en": "Checks English grammar and spelling inside Word and Outlook",
+      "ar": "بيصحّح القواعد والإملاء الإنجليزي جوّا Word و Outlook"
+    },
+    {
+      "id": "geeksoftwareGmbH.PDF24Creator",
+      "source": "winget",
+      "name": "PDF24 Creator",
+      "cat": "study",
+      "packs": [
+        "basic"
+      ],
+      "site": "pdf24.org",
+      "en": "Free PDF toolbox: merge, split, edit, compress and OCR scanned pages",
+      "ar": "أدوات PDF مجانية: دمج وتقسيم وتعديل وضغط، وقراءة النص من الصفحات الممسوحة"
+    },
+    {
+      "id": "SumatraPDF.SumatraPDF",
+      "source": "winget",
+      "name": "SumatraPDF",
+      "cat": "study",
+      "packs": [],
+      "site": "sumatrapdfreader.org",
+      "en": "Very light, fast reader for PDF, EPUB and comic files",
+      "ar": "قارئ خفيف وسريع جداً لملفات PDF و EPUB والقصص المصوّرة"
+    },
+    {
+      "id": "zhongyang219.TrafficMonitor.Lite",
+      "source": "winget",
+      "name": "TrafficMonitor",
+      "cat": "tools",
+      "packs": [],
+      "site": "github.com",
+      "en": "Shows internet speed, CPU and RAM use on the taskbar",
+      "ar": "بيعرض سرعة النت واستهلاك المعالج والرام على شريط المهام"
+    },
+    {
+      "id": "XP9CXNGPPJ97XX",
+      "source": "msstore",
+      "name": "Microsoft Copilot",
+      "cat": "ai",
+      "packs": [],
+      "site": "copilot.microsoft.com",
+      "en": "Microsoft Copilot AI assistant app (removed by default in this edition)",
+      "ar": "تطبيق مساعد Copilot من مايكروسوفت (محذوف افتراضياً بهاي النسخة)"
+    },
+    {
+      "id": "Veeam.VeeamAgent",
+      "source": "winget",
+      "name": "Veeam Agent",
+      "cat": "tools",
+      "packs": [
+        "basic"
+      ],
+      "site": "veeam.com",
+      "en": "Free full backup of drive C: (or folders) on a schedule; restore everything after a crash",
+      "ar": "نسخ احتياطي مجاني لكل الـ C: (أو مجلدات) بمواعيد، وبترجّع كل شي إذا خرب الجهاز"
+    },
+    {
+      "id": "Insecure.Nmap",
+      "source": "winget",
+      "name": "Nmap",
+      "cat": "network",
+      "packs": [
+        "network"
+      ],
+      "site": "nmap.org",
+      "en": "Network scanner: finds hosts, open ports and services (with Zenmap window)",
+      "ar": "فاحص شبكات: بيكتشف الأجهزة والبورتات المفتوحة والخدمات (مع واجهة Zenmap)"
+    }
+  ],
+  "manual": [
+    {
+      "name": "ASUS Sonic Studio 3",
+      "en": "Audio effects (ROG Strix B550-E: Utilities)",
+      "ar": "مؤثرات الصوت (ROG Strix B550-E: قسم Utilities)",
+      "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-e-gaming-model/helpdesk_download/"
+    },
+    {
+      "name": "ASUS AI Suite 3",
+      "en": "Fans, overclock (ROG Strix B550-E: Utilities)",
+      "ar": "المراوح والأوفركلوك (ROG Strix B550-E: قسم Utilities)",
+      "url": "https://rog.asus.com/motherboards/rog-strix/rog-strix-b550-e-gaming-model/helpdesk_download/"
+    },
+    {
+      "name": "GNS3",
+      "en": "Network emulator (free account)",
+      "ar": "محاكي شبكات (يحتاج حساب مجاني)",
+      "url": "https://www.gns3.com/software/download"
+    },
+    {
+      "name": "Cisco Packet Tracer",
+      "en": "Cisco simulator (free NetAcad account)",
+      "ar": "محاكي Cisco (يحتاج حساب NetAcad مجاني)",
+      "url": "https://www.netacad.com/resources/lab-downloads"
+    },
+    {
+      "name": "Microsoft Office",
+      "en": "Needs your product key",
+      "ar": "يحتاج مفتاح التفعيل",
+      "url": "https://account.microsoft.com/services"
+    },
+    {
+      "name": "NVIDIA GPU driver",
+      "en": "Or use NVIDIA App",
+      "ar": "أو عبر NVIDIA App",
+      "url": "https://www.nvidia.com/Download/index.aspx"
+    },
+    {
+      "name": "AMD Chipset",
+      "en": "Motherboard chipset driver",
+      "ar": "تعريف شيبست اللوحة",
+      "url": "https://www.amd.com/en/support/download/drivers.html"
+    },
+    {
+      "name": "AMD Ryzen Master",
+      "en": "CPU tuning",
+      "ar": "ضبط المعالج",
+      "url": "https://www.amd.com/en/products/software/ryzen-master.html"
+    },
+    {
+      "name": "VMware Workstation Pro",
+      "en": "Virtual machines (free account)",
+      "ar": "أجهزة وهمية (يحتاج حساب مجاني)",
+      "url": "https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro"
+    },
+    {
+      "name": "SecureCRT",
+      "en": "SSH client (paid license)",
+      "ar": "عميل SSH (رخصة مدفوعة)",
+      "url": "https://www.vandyke.com/download/index.html"
+    },
+    {
+      "name": "ASUS drivers: Realtek audio + Sonic Studio",
+      "en": "Pick your board, then Audio",
+      "ar": "اختار لوحتك، بعدها قسم Audio",
+      "url": "https://www.asus.com/support/download-center/"
+    },
+    {
+      "name": "AMD Software (Adrenalin)",
+      "en": "For AMD Radeon graphics",
+      "ar": "لكروت AMD Radeon",
+      "url": "https://www.amd.com/en/support/download/drivers.html"
+    }
+  ]
+}
