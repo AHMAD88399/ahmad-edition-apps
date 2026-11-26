@@ -1068,9 +1068,9 @@
     },
     {
       "name": "VMware Workstation Pro",
-      "en": "Virtual machines (free account)",
-      "ar": "أجهزة وهمية (يحتاج حساب مجاني)",
-      "url": "https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro"
+      "en": "Free virtual machines. Official installer mirrored by TechPowerUp (no Broadcom login)",
+      "ar": "أجهزة وهمية مجانية. ملف التثبيت الرسمي من TechPowerUp (بدون تسجيل دخول Broadcom)",
+      "url": "https://www.techpowerup.com/download/vmware-workstation-pro/"
     },
     {
       "name": "SecureCRT",
